@@ -1,8 +1,9 @@
 # dotfiles
 My personal config files for arch linux setup
--List of packages required can be found in pkgs.txt
--Folders will go inside .config directory in users home directory
--Files will be in root of users home directory
+
+*List of packages required can be found in pkgs.txt
+*Folders will go inside .config directory in users home directory
+*Files will be in root of users home directory
 
 ![Screenshot 1](https://github.com/diyodavis619/dotfiles/blob/master/scrot/scrot-2019-05-11_15:38:11.png)
 

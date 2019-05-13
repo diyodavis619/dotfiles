@@ -17,8 +17,6 @@ export LESS_TERMCAP_so=$'\e[01;31m';
 export LESS_TERMCAP_ue=$'\e[00;00m';
 export LESS_TERMCAP_us=$'\e[01;32m';
 
-# zsh like completion
-bind 'set show-all-if-ambiguous on'
 bind 'TAB:menu-complete'
 
 # auto cd

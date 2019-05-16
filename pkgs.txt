@@ -7,7 +7,6 @@ otf-font-awesome
 rofi
 rxvt-unicode
 vim
-ranger
 i3
 scrot
 base-devel
@@ -33,14 +32,14 @@ testdisk
 bleachbit
 transmission-cli
 cmus
-atool
-w3m
-highlight
+ranger
+neofetch
 bash-completion
 mlocate
 numlockx
 android-tools
-neofetch
 libmtp
 android-udev
 simple-mtpfs --- AUR
+ctags
+bc

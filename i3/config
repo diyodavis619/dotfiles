@@ -240,13 +240,15 @@ exec setxkbmap -layout "us"
 exec ~/.fehbg &
 
 exec --no-startup-id i3-msg 'workspace 1; exec i3-sensible-terminal'
-bindsym Mod1+f exec firefox;workspace 2;focus
-bindsym Mod1+r workspace 3;exec urxvt -e ranger
-bindsym Mod1+c workspace 6;exec urxvt -e cmus
+bindsym Mod1+w exec firefox;workspace 2;focus
+bindsym Mod1+f exec pcmanfm;workspace 3;focus
+#bindsym Mod1+r workspace 3;exec urxvt -e ranger
+#bindsym Mod1+c workspace 6;exec urxvt -e cmus
 
 # window rules, you can find the window class using xprop
 for_window [class=".*"] border pixel 4
 #assign [class=URxvt] 1
 assign [class=Firefox] 2
-assign [class=Zathura] 5
-assign [class=smplayer] 6
+assign [class=Pcmanfm] 3
+assign [class=Zathura] 4
+assign [class=smplayer] 5

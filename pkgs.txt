@@ -1,7 +1,23 @@
 pacaur --- AUR
+playerctl --- AUR
+simple-mtpfs --- AUR
+
 firefox
 flashplugin
+
+xorg-xrdb
+xorg-server
 xorg-xprop
+xdg-utils
+alsa-utils
+base-devel
+numlockx
+android-tools
+android-udev
+libmtp
+polkit
+bash-completion
+
 feh
 otf-font-awesome
 rofi
@@ -9,37 +25,29 @@ rxvt-unicode
 vim
 i3
 scrot
-base-devel
+gpicview
+smplayer
 zathura
-playerctl --- AUR
+zathura-pdf-poppler
+transmission-cli
+cmus
+ranger
+neofetch
+
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 lxappearance
-xorg-xrdb
-xorg-server
-alsa-utils
 gnome-themes-extra
-gpicview
-smplayer
-xdg-utils
-polkit
-zathura-pdf-poppler
+
 zip
 unzip
 unrar
 testdisk
 bleachbit
-transmission-cli
-cmus
-ranger
-neofetch
-bash-completion
-mlocate
-numlockx
-android-tools
-libmtp
-android-udev
-simple-mtpfs --- AUR
 ctags
 bc
+mlocate
+pcmanfm
+gvfs
+gvfs-mtp

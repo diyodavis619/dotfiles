@@ -17,6 +17,7 @@ android-udev
 libmtp
 polkit
 bash-completion
+rsync
 
 feh
 otf-font-awesome

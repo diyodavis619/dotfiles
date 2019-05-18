@@ -1,4 +1,4 @@
-### Tweaks ###
+### Tweaks - about:config ###
 browser.cache.disk.enable --- false
 browser.sessionstore.interval --- 900000
 extensions.pocket.enabled --- false

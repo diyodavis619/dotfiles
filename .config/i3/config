@@ -4,7 +4,7 @@ set $mod Mod4
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 # install otf-font-awesome instead of ttf-font-awesome
-font pango:FontAwesome 11
+font xft:Droid Sans Mono 11
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -187,7 +187,7 @@ bar {
 	#mode hide
     	#hidden_state hide
     	#modifier $mod
-	font xft:Droid Sans Mono 11, FontAwesome 11
+	font xft:Droid Sans Mono 11
         position bottom
   	status_command i3status --config ~/.config/i3/i3status.conf
   	colors {
@@ -251,6 +251,6 @@ for_window [class=".*"] border pixel 4
 #assign [class=URxvt] 1
 assign [class=Firefox] 2
 assign [class=Pcmanfm] 3
-assign [class=Gpicview] 4
-assign [class=Zathura] 5
+assign [class=Evince] 4
+assign [class=Gpicview] 5
 assign [class=smplayer] 6

@@ -9,11 +9,11 @@ URxvt.internalBorder:       3
 URxvt.lineSpace:            0
 
 ! Appearance
-URxvt.font:           xft:FontAwesome:size=12:antialias=true
-URxvt.imFont:         xft:FontAwesome:im:size=12:antialias=true
-URxvt.boldFont:       xft:FontAwesome:bold:size=12:antialias=true
-URxvt.italicFont:     xft:FontAwesome:italic:size=12:antialias=true
-URxvt.boldItalicFont: xft:FontAwesome:boldItalic:size=12:antialias=true
+URxvt.font:           xft:monospace:size=14:antialias=true
+URxvt.imFont:         xft:monospace:im:size=14:antialias=true
+URxvt.boldFont:       xft:monospace:bold:size=14:antialias=true
+URxvt.italicFont:     xft:monospace:italic:size=14:antialias=true
+URxvt.boldItalicFont: xft:monospace:boldItalic:size=14:antialias=true
 
 ! Fix font space
 !URxvt*letterSpace: -1
@@ -31,9 +31,9 @@ URxvt.scrollStyle:          plain
 URxvt.scrollBar:            true
 
 ! Perl extensions
-URxvt.perl-ext-common:      default,matcher
-URxvt.matcher.button:       1
-URxvt.urlLauncher:          /usr/bin/xdg-open
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
 
 ! Cursor
 URxvt.cursorBlink:          true

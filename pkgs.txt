@@ -28,8 +28,6 @@ i3
 scrot
 gpicview
 smplayer
-zathura
-zathura-pdf-poppler
 transmission-cli
 cmus
 ranger
@@ -50,5 +48,6 @@ ctags
 bc
 mlocate
 pcmanfm
+evince
 gvfs
 gvfs-mtp

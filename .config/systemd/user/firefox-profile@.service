@@ -7,6 +7,6 @@
  [Service]
  Type=oneshot
  RemainAfterExit=yes
- ExecStart=/home/matthew/.local/bin/firefox-sync %i
- ExecStop=/home/matthew/.local/bin/firefox-sync %i
+ ExecStart=/home/diyodavis/.local/bin/firefox-sync %i
+ ExecStop=/home/diyodavis/.local/bin/firefox-sync %i
  

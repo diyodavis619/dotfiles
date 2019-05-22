@@ -1,6 +1,7 @@
 pacaur --- AUR
 playerctl --- AUR
 simple-mtpfs --- AUR
+lohit-fonts --- AUR
 
 firefox
 flashplugin
@@ -51,3 +52,4 @@ pcmanfm
 evince
 gvfs
 gvfs-mtp
+galculator

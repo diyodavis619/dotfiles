@@ -16,9 +16,8 @@ numlockx
 android-tools
 android-udev
 libmtp
-polkit
 bash-completion
-rsync
+mlocate
 
 feh
 otf-font-awesome
@@ -30,12 +29,3 @@ scrot
 transmission-cli
 cmus
 ranger
-
-zip
-unzip
-unrar
-testdisk
-bleachbit
-ctags
-bc
-mlocate

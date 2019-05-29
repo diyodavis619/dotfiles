@@ -18,9 +18,12 @@ android-udev
 libmtp
 bash-completion
 mlocate
+grml-zsh-config
+rsync
 
 feh
 otf-font-awesome
+ttf-dejavu
 rofi
 rxvt-unicode
 vim
@@ -29,3 +32,8 @@ scrot
 transmission-cli
 cmus
 ranger
+ctags
+bc
+testdisk
+gvfs
+gvfs-mtp

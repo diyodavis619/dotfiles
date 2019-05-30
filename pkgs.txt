@@ -37,4 +37,7 @@ testdisk
 bleachbit
 gvfs
 gvfs-mtp
+ranger
+cmus
+neofetch
 

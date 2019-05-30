@@ -20,6 +20,8 @@ bash-completion
 mlocate
 grml-zsh-config
 rsync
+pkgfile
+zsh-syntax-highlighting
 
 feh
 otf-font-awesome
@@ -32,6 +34,7 @@ transmission-cli
 ctags
 bc
 testdisk
+bleachbit
 gvfs
 gvfs-mtp
 

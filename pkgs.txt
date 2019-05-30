@@ -28,12 +28,10 @@ rofi
 rxvt-unicode
 vim
 i3
-scrot
 transmission-cli
-cmus
-ranger
 ctags
 bc
 testdisk
 gvfs
 gvfs-mtp
+

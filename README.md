@@ -5,9 +5,3 @@ My personal config files for arch linux setup
 * To improve firefox performance read firefox.txt
 * Folders will go inside .config directory in users home directory
 * Files will be in root of users home directory
-
-![Screenshot 1](https://github.com/diyodavis619/dotfiles/blob/master/scrot/scrot-2019-05-11_15_38_11.png)
-
-![Screenshot 2](https://github.com/diyodavis619/dotfiles/blob/master/scrot/scrot-2019-05-11_15_53_56.png)
-
-![Screenshot 3](https://github.com/diyodavis619/dotfiles/blob/master/scrot/scrot-2019-05-11_15_57_58.png)

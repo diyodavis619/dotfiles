@@ -22,6 +22,8 @@ grml-zsh-config
 rsync
 pkgfile
 zsh-syntax-highlighting
+openssh
+bind-tools
 
 feh
 otf-font-awesome

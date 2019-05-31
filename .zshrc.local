@@ -58,3 +58,14 @@ alias tk='pkill -3 transmission-daemon;echo "Transmission daemon killed"'
 alias ping='ping -c 4 '
 alias pingtry='ping -c 4 archlinux.org'
 alias pacman='sudo pacman --color=always'
+
+# Detailed information on an IP address or hostname in bash via http://ipinfo.io
+ipinfo() { 
+    if grep -P "(([1-9]\d{0,2})\.){3}(?2)" <<< "$1"; then
+	 curl ipinfo.io/"$1"
+    else
+	ipawk=($(host "$1" | awk '/address/ { print $NF }'))
+	curl ipinfo.io/${ipawk[1]}
+    fi
+    echo
+}

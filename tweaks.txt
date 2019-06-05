@@ -20,3 +20,4 @@ https://extensions.gnome.org/extension/1319/gsconnect/  ---  GSConnect
 https://extensions.gnome.org/extension/744/hide-activities-button/  ---  Hide Activities Button 
 https://extensions.gnome.org/extension/118/no-topleft-hot-corner/  ---  No Topleft Hot Corner 
 
+Remove evolution-data-server package

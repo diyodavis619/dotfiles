@@ -12,7 +12,6 @@ xorg-xprop
 xdg-utils
 alsa-utils
 base-devel
-numlockx
 android-tools
 android-udev
 libmtp
@@ -24,6 +23,7 @@ pkgfile
 zsh-syntax-highlighting
 openssh
 bind-tools
+htop
 
 feh
 otf-font-awesome
@@ -32,11 +32,6 @@ rofi
 rxvt-unicode
 vim
 i3
-transmission-cli
-ctags
-bc
-testdisk
-bleachbit
 gvfs
 gvfs-mtp
 ranger

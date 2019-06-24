@@ -1,40 +1,15 @@
 pacaur --- AUR
 playerctl --- AUR
 simple-mtpfs --- AUR
-lohit-fonts --- AUR
 
-firefox
-flashplugin
-
-xorg-xrdb
-xorg-server
-xorg-xprop
-xdg-utils
-alsa-utils
-base-devel
 android-tools
 android-udev
 libmtp
 bash-completion
-mlocate
 grml-zsh-config
 rsync
 pkgfile
 zsh-syntax-highlighting
 openssh
 bind-tools
-htop
-
-feh
-otf-font-awesome
-ttf-dejavu
-rofi
-rxvt-unicode
-vim
-i3
-gvfs
 gvfs-mtp
-ranger
-cmus
-neofetch
-

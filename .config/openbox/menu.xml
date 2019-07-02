@@ -88,13 +88,10 @@
       <startupnotify><enabled>yes</enabled></startupnotify>
     </action>
   </item>
-  <item label="Manage Cups Printers">
+  <item label="Tint2 Configuration Manager">
     <action name="Execute">
-      <command>xdg-open http://localhost:631/</command>
-      <startupnotify>
-        <enabled>no</enabled>
-        <icon>cups</icon>
-      </startupnotify>
+      <command>tint2conf</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
     </action>
   </item>
   <separator />

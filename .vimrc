@@ -64,6 +64,9 @@ set langmenu=en
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 
+" Show the file name in the terminal title bar
+set title
+
 " Turn on the Wild menu
 set wildmenu
 
@@ -173,14 +176,15 @@ set noswapfile
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Use spaces instead of tabs
-set expandtab
+set noexpandtab
 
 " Be smart when using tabs ;)
 set smarttab
 
-" 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+" 1 tab == 8 spaces
+set tabstop=8
+set softtabstop=8
+set shiftwidth=8
 
 " Linebreak on 500 characters
 set lbr

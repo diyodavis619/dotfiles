@@ -324,6 +324,15 @@
       </action>
     </keybind>
     <!-- Keybindings for controlling volume -->
+    <keybind key="C-h">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Headphone</name>
+        </startupnotify>
+        <command>amixer set Front toggle</command>
+      </action>
+    </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
         <startupnotify>

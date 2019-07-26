@@ -323,41 +323,13 @@
         <command>kfmclient openProfile filemanagement</command>
       </action>
     </keybind>
-    <!-- Keybindings for controlling volume -->
-    <keybind key="C-h">
+    <keybind key="W-r">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>Headphone</name>
+          <name>Rofi</name>
         </startupnotify>
-        <command>amixer set Front toggle</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioMute">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Mute</name>
-        </startupnotify>
-        <command>amixer set Master toggle</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioRaiseVolume">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>VolumeUp</name>
-        </startupnotify>
-        <command>amixer set Master 5%+</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioLowerVolume">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>VolumeDown</name>
-        </startupnotify>
-        <command>amixer set Master 5%-</command>
+        <command>rofi -show drun</command>
       </action>
     </keybind>
     <keybind key="W-F11">

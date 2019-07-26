@@ -2,85 +2,6 @@
 
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
-<menu id="apps-accessories-menu" label="Accessories">
-  <item label="Calculator">
-    <action name="Execute">
-      <command>galculator</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-</menu>
-
-<menu id="apps-editors-menu" label="Editors">
-  <item label="Mousepad">
-    <action name="Execute">
-      <command>mousepad</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-</menu>
-
-<menu id="apps-term-menu" label="Terminals">
-  <item label="Gnome Terminal">
-    <action name="Execute">
-      <command>gnome-terminal</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-</menu>
-
-<menu id="apps-net-menu" label="Internet">
-  <item label="Firefox">
-    <action name="Execute">
-      <command>firefox</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-        <wmclass>Firefox</wmclass>
-      </startupnotify>
-    </action>
-  </item>
-</menu>
-
-<menu id="apps-multimedia-menu" label="Multimedia">
-  <item label="VLC">
-    <action name="Execute">
-      <command>vlc</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-        <wmclass>VLC</wmclass>
-      </startupnotify>
-    </action>
-  </item>
-</menu>
-
-<menu id="apps-fileman-menu" label="File Managers">
-  <item label="PCMan File Manager">
-    <action name="Execute">
-      <command>pcmanfm</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-</menu>
-
-<menu id="apps-graphics-menu" label="Graphics">
-  <item label="Ristretto">
-    <action name="Execute">
-      <command>ristretto</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-</menu>
-
 <menu id="system-menu" label="System">
   <item label="Openbox Configuration Manager">
     <action name="Execute">
@@ -91,6 +12,12 @@
   <item label="Tint2 Configuration Manager">
     <action name="Execute">
       <command>tint2conf</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Lxappearance">
+    <action name="Execute">
+      <command>lxappearance</command>
       <startupnotify><enabled>yes</enabled></startupnotify>
     </action>
   </item>
@@ -129,15 +56,7 @@
 </menu>
 
 <menu id="root-menu" label="Openbox 3">
-  <separator label="Applications" />
-  <menu id="apps-accessories-menu"/>
-  <menu id="apps-editors-menu"/>
-  <menu id="apps-graphics-menu"/>
-  <menu id="apps-net-menu"/>
-  <menu id="apps-multimedia-menu"/>
-  <menu id="apps-term-menu"/>
-  <menu id="apps-fileman-menu"/>
-  <separator label="System" />
+  <separator />
   <menu id="system-menu"/>
   <menu id="exit-menu"/>
   <separator />

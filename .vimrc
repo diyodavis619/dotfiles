@@ -64,6 +64,9 @@ set langmenu=en
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 
+" Show line numbers
+set number
+
 " Show the file name in the terminal title bar
 set title
 

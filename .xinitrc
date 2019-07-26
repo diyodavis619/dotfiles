@@ -50,6 +50,8 @@ fi
 
 numlockx &
 tint2 &
-pcmanfm --desktop &
 (sleep 2 && xcompmgr) &
+feh --bg-scale $HOME/Pictures/archlinux_minimal.jpg
+nm-applet &
+volumeicon &
 exec openbox

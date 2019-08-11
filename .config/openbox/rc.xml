@@ -314,13 +314,22 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
-    <keybind key="W-e">
+    <keybind key="W-m">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>Konqueror</name>
+          <name>BrightnessUp</name>
         </startupnotify>
-        <command>kfmclient openProfile filemanagement</command>
+        <command>xbacklight -inc 10</command>
+      </action>
+    </keybind>
+    <keybind key="W-n">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>BrightnessDown</name>
+        </startupnotify>
+        <command>xbacklight -dec 10</command>
       </action>
     </keybind>
     <keybind key="W-r">

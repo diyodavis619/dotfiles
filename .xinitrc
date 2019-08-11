@@ -51,7 +51,8 @@ fi
 numlockx &
 tint2 &
 (sleep 2 && xcompmgr) &
-feh --bg-scale $HOME/Pictures/archlinux_minimal.jpg
+feh --bg-scale $HOME/Pictures/tux-moon.png &
+bash $HOME/.config/conky/conky.sh &
 nm-applet &
 volumeicon &
 exec openbox

@@ -18,7 +18,8 @@
 
 numlockx &
 tint2 &
-xcompmgr &
-feh --bg-scale $HOME/Pictures/tux-moon.png
+(sleep 2 && xcompmgr) &
+feh --bg-scale $HOME/Pictures/arch-minimal.jpg &
+bash $HOME/.config/conky/conky.sh &
 nm-applet &
 volumeicon &
